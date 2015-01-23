@@ -1,0 +1,62 @@
+html {
+  background-color:  #dbd6cf;
+
+  color: #000;
+}
+
+h1 {
+  color: #79756f;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 1;
+  text-shadow: none;
+  font-family: 'Bevan', cursive;
+}
+
+h2 {
+  color: #79756f;
+  font-family: 'Bevan', cursive;
+}
+
+figure {
+  font-style: italic;
+}
+
+blockquote {
+  font-size: 2rem;
+  font-style: italic;
+  color: #000;
+}
+
+b {
+  color: #79756f;
+  font-weight: normal;
+}
+
+cite {
+  font-size: 1rem;
+  color: #79756f;
+}
+
+p {
+  font-style: normal; /* italic, normal */
+  line-height: 1.5;
+  text-decoration: none; /* underline, none, line-through */
+  text-align: left; /* left, center, right, justify */
+  font-family: sans-serif
+}
+
+}
+
+ol{
+  list-style-type: none;
+  padding: 0;
+}
+
+a{
+  color: #713837;
+}
+
+a:hover{
+  color: orange;
+}
