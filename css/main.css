@@ -1,15 +1,12 @@
 html {
   background-color:  #dbd6cf;
-
   color: #000;
+  line-height: 1.5;
 }
 
 h1 {
   color: #79756f;
-  font-weight: normal;
   font-size: 2rem;
-  line-height: 1;
-  text-shadow: none;
   font-family: 'Bevan', cursive;
 }
 
@@ -18,22 +15,36 @@ h2 {
   font-family: 'Bevan', cursive;
 }
 
+h3 {
+  color: #79756f;
+  font-family: 'Bevan', cursive;
+}
+
 figure {
   font-style: italic;
+  font-family: sans-serif;
+  font-size: 0.75rem;
 }
 
 blockquote {
   font-size: 1.5rem;
   font-style: italic;
   color: #000;
+  line-height: 1;
 }
 
 ol {
   list-style-type: none;
+  font-family: sans-serif;
 }
 
 ul {
-  list-style-type: lower-roman
+  list-style-type: lower-roman;
+  font-family: sans-serif;
+}
+
+dl {
+  font-family: sans-serif;
 }
 
 dt {
@@ -51,6 +62,13 @@ strong {
   font-style: italic;
 }
 
+b {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #79756f;
+}
+
+
 cite {
   font-size: 1rem;
   color: #79756f;
@@ -59,7 +77,6 @@ cite {
 
 p {
   font-style: normal; /* italic, normal */
-  line-height: 1.5;
   text-decoration: none; /* underline, none, line-through */
   text-align: left; /* left, center, right, justify */
   font-family: sans-serif
@@ -69,7 +86,6 @@ p {
 
 ol{
   list-style-type: none;
-  padding: 0;
 }
 
 a{
