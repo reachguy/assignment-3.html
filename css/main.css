@@ -23,20 +23,39 @@ figure {
 }
 
 blockquote {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-style: italic;
   color: #000;
 }
 
-b {
+ol {
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: lower-roman
+}
+
+dt {
+  font-weight: bold;
+}
+
+em {
   color: #79756f;
   font-weight: normal;
+  font-style: normal;
+}
+
+strong {
+  font-weight: normal;
+  font-style: italic;
 }
 
 cite {
   font-size: 1rem;
   color: #79756f;
 }
+
 
 p {
   font-style: normal; /* italic, normal */
